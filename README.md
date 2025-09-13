@@ -7,3 +7,6 @@ Static portfolio website.
    ```bash
    git clone https://github.com/mdabulhasnat198-code/new.git
    cd yourrepo
+   python3 -m http.server 8000
+# Then open http://localhost:8000
+
