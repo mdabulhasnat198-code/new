@@ -1,1 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Md Tariqul Hossain — Portfolio</title>
+  <meta name="description" content="Md Tariqul Hossain — software developer / student portfolio" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="assets/favicon.svg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Tariqul Hossain</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#blog">Notes</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Md Tariqul Hossain</h1>
+          <p class="subtitle">Student • Developer • Problem solver — building useful tools and learning every day.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn">See projects</a>
+            <a href="assets/Tariqul_Hossain_Resume.pdf" class="btn btn-outline">Download CV</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/profile-placeholder.png" alt="Md Tariqul Hossain" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="grid-2">
+          <div>
+            <p>I am a student and self-taught developer passionate about mathematics, physics, and web development. I enjoy solving problems, building small apps, and learning new technologies. I have experience with HTML, CSS, JavaScript, Python and basic simulation tools.</p>
+            <ul class="skills">
+              <li>HTML / CSS / JavaScript</li>
+              <li>Python (NumPy, Matplotlib)</li>
+              <li>COMSOL simulation basics</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Quick facts</h3>
+            <table class="facts">
+              <tr><td>Location</td><td>Bangladesh</td></tr>
+              <tr><td>Email</td><td><a href="mailto:youremail@example.com">youremail@example.com</a></td></tr>
+              <tr><td>Availability</td><td>Open to internships / projects</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- Project card example: copy & adjust -->
+          <article class="project-card">
+            <img src="assets/proj1.png" alt="Project 1 screenshot" />
+            <div class="project-body">
+              <h3>Project One — Portfolio Generator</h3>
+              <p>Static site generator for students to generate a clean portfolio from a JSON file.</p>
+              <p class="project-tags"><span>HTML</span> <span>JavaScript</span> <span>Static</span></p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live</a>
+                <a href="#" target="_blank" rel="noopener">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Duplicate cards for other projects -->
+          <article class="project-card">
+            <img src="assets/proj2.png" alt="Project 2 screenshot" />
+            <div class="project-body">
+              <h3>Hydrogen Fuel Cell Simulation</h3>
+              <p>Simulation study and visualization (example data) showing energy output vs conditions.</p>
+              <p class="project-tags"><span>Python</span> <span>COMSOL</span></p>
+              <div class="project-links">
+                <a href="#">Report</a>
+                <a href="#">Code</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="section" id="resume">
+      <div class="container">
+        <h2 class="section-title">Resume</h2>
+        <div class="grid-2">
+          <div>
+            <h3>Education</h3>
+            <p><strong>BSc / Ongoing</strong> — Major / Institution (dates)</p>
+
+            <h3>Experience</h3>
+            <p><strong>Intern / Project</strong> — Short description.</p>
+          </div>
+          <div>
+            <h3>Selected coursework & achievements</h3>
+            <ul>
+              <li>Advanced maths and physics problems</li>
+              <li>COMSOL simulation projects</li>
+              <li>Competition prizes (list if any)</li>
+            </ul>
+          </div>
+        </div>
+        <p class="small">Tip: Replace this page with a real PDF resume at <code>assets/Tariqul_Hossain_Resume.pdf</code>.</p>
+      </div>
+    </section>
+
+    <!-- Blog / Notes -->
+    <section class="section section-alt" id="blog">
+      <div class="container">
+        <h2 class="section-title">Notes & Blog</h2>
+        <div class="notes-list">
+          <article class="note">
+            <h4>Energy change in fuel cells — summary</h4>
+            <p>Short summary or excerpt. Link to full post or PDF.</p>
+          </article>
+          <article class="note">
+            <h4>COMSOL simulation steps</h4>
+            <p>Quick step-by-step notes for a COMSOL model.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="grid-2">
+          <div>
+            <p>If you'd like to work together or ask a question, send a message.</p>
+            <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="_replyto" required />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea name="message" rows="5" required></textarea>
+              </label>
+              <button class="btn" type="submit">Send message</button>
+            </form>
+          </div>
+          <div>
+            <h3>Other ways</h3>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+            <p>LinkedIn: <a href="#">your profile</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Md Tariqul Hossain — Built with ❤️</p>
+      <nav class="footer-nav">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
 
